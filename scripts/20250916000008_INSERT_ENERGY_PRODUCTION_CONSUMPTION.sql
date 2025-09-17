@@ -1,0 +1,6 @@
+-- Inserts para energy_production_consumption
+-- (Comentado: Depende de usuarios existentes, se crearán desde el backend)
+-- INSERT INTO energy_production_consumption (user_id, energy_produced_kwh, energy_consumed_kwh) VALUES
+-- (1, 10.5, 8.2),
+-- (2, 0.0, 12.3),
+-- (3, 15.0, 0.0);

@@ -1,0 +1,6 @@
+-- Inserts para usuarios de ejemplo
+-- (Comentado: Los usuarios se crearán desde el backend)
+-- INSERT INTO users (name, email, password, user_role, location) VALUES
+-- ('Juan Pérez', 'juan@example.com', 'hashed_password_1', 'prosumidor', 'Medellín'),
+-- ('Ana Gómez', 'ana@example.com', 'hashed_password_2', 'consumidor', 'Bogotá'),
+-- ('Carlos Rodríguez', 'carlos@example.com', 'hashed_password_3', 'generador', 'Cali');
