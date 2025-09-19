@@ -4,6 +4,8 @@ CREATE TABLE energy_production_consumption (
     user_id INTEGER,
     energy_produced_kwh DECIMAL(10,2) NOT NULL,
     energy_consumed_kwh DECIMAL(10,2) NOT NULL,
+    used_kwh DECIMAL(10, 2) DEFAULT 0,        -- Energía bloqueada en ofertas activas
+    consumed_kwh DECIMAL(10, 2) DEFAULT 0,    -- Energía vendida/consumida
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     deleted_at TIMESTAMP NULL,
